@@ -1,0 +1,4 @@
+import numpy as np
+arr=np.array([1,2,3])
+a=np.r_[np.repeat(arr[:3],3), np.tile(arr[:3],3)]
+print(a)
