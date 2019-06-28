@@ -1,0 +1,4 @@
+import numpy as np
+arr= np.arange(15)
+print (np.set_printoptions(threshold=3))
+print(arr)
