@@ -1,0 +1,4 @@
+import numpy as np
+arr=np.arange(10)
+b = arr.reshape(2,5)
+print(b)
